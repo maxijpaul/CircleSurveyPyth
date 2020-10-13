@@ -81,7 +81,9 @@ gameDisplay = pygame.display.set_mode((500, 500))
 
 clock = pygame.time.Clock()
 
-bg = pygame.image.load("/Users/maximilianpl/Downloads/wetransfer-13a45a/50p.png")
+#Insert path of background image
+
+bg = pygame.image.load("/Users/example/background.png")
 
 items = [".png"," (5).png", " (6).png", " (7).png", " (8).png"]
 
@@ -90,7 +92,9 @@ def display(z, e):
 
 for item in items:
 
-    textb = pygame.image.load("/Users/maximilianpl/Downloads/wetransfer-e6b811/Untitled" + item)
+    #insert path of question-images
+    
+    textb = pygame.image.load("Users/example/questi/image"+ item)
 
     x, y = 200, 200
 
